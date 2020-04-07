@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Willem Wigman
-image: /img/home-jumbotron.jpg
+image: /img/products-full-width.jpg
 heading: Willem Wigman
 subheading: Ecommerce Developer & Consultant
 mainpitch:
@@ -11,7 +11,6 @@ mainpitch:
     shouldn't just taste good, it should do good too. We source all of our beans
     directly from small scale sustainable farmers and make sure part of the
     profits are reinvested in their communities.
-description: Willem is a developer and consultant specialised in e-commerce. More content is coming.
 intro:
   blurbs:
     - image: /img/coffee.png
@@ -63,4 +62,10 @@ main:
   image3:
     alt: Coffee beans
     image: /img/products-grid1.jpg
+description: >-
+  Willem is a developer and consultant specialised in e-commerce. More content
+  is coming.
 ---
+Willem is a developer and consultant specialised in e-commerce. Currently working at [Integer_net](https://integer-net.com/). Previously owner of a small e-commerce firm.
+
+More content is coming...
