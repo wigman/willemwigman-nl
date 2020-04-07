@@ -1,8 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'Willem Wigman | Magento Developer & Consultant',
-    description:
-      'A personal site built with Gatsby, and Netlify CMS.',
+    description: 'A personal site built with Gatsby, and Netlify CMS.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -35,17 +34,17 @@ module.exports = {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
-	        {
-		      resolve: `gatsby-plugin-prefetch-google-fonts`,
-		      options: {
-		        fonts: [
-		          {
-		            family: `Droid Sans`,
-		            variants: [`400`, `700`]
-		          }
-		        ],
-		      },
-    	  },
+          {
+            resolve: `gatsby-plugin-prefetch-google-fonts`,
+            options: {
+              fonts: [
+                {
+                  family: `Droid Sans`,
+                  variants: [`400`, `700`],
+                },
+              ],
+            },
+          },
           {
             resolve: 'gatsby-remark-relative-images',
             options: {
