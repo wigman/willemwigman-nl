@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 import twitter from '../img/social/twitter.svg'
+import linkedin from '../img/social/linkedin.svg'
 
 const Footer = class extends React.Component {
   render() {
@@ -32,14 +33,26 @@ const Footer = class extends React.Component {
                 </section>
               </div>
               <div className="column is-4 social">
-                <a title="twitter" href="https://twitter.com/willemwigman">
-                  <img
-                    className="fas fa-lg"
-                    src={twitter}
-                    alt="Twitter"
-                    style={{ width: '1em', height: '1em' }}
-                  />
-                </a>
+                <ul>
+                  <li>
+                    <a title="twitter" href="https://twitter.com/willemwigman">
+                      <img
+                        className="fas fa-lg"
+                        src={twitter}
+                        alt="Twitter"
+                        style={{ width: '1em', height: '1em' }}
+                      />
+                    </a>
+                    <a title="linkedin" href="https://www.linkedin.com/in/willem-wigman-213b8b95">
+                      <img
+                        className="fas fa-lg"
+                        src={linkedin}
+                        alt="LinkedIn"
+                        style={{ width: '1em', height: '1em' }}
+                      />
+                    </a>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
