@@ -35,6 +35,17 @@ module.exports = {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
+	        {
+		      resolve: `gatsby-plugin-prefetch-google-fonts`,
+		      options: {
+		        fonts: [
+		          {
+		            family: `Droid Sans`,
+		            variants: [`400`, `700`]
+		          }
+		        ],
+		      },
+    	  },
           {
             resolve: 'gatsby-remark-relative-images',
             options: {
