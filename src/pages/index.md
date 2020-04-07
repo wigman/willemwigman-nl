@@ -3,17 +3,14 @@ templateKey: index-page
 title: Willem Wigman
 image: /img/home-jumbotron.jpg
 heading: Willem Wigman
-subheading: Ecommerce Developer and Consultant
+subheading: Ecommerce Developer & Consultant
 mainpitch:
   title: About
   description: >
-    Willem is a developer and consultant specialised in e-commerce.
-    Currently working at Integer_net. Previously owner of e-commerce firm e-tailors.
-description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+    Kaldi is the coffee store for everyone who believes that great coffee
+    shouldn't just taste good, it should do good too. We source all of our beans
+    directly from small scale sustainable farmers and make sure part of the
+    profits are reinvested in their communities.
 intro:
   blurbs:
     - image: /img/coffee.png
