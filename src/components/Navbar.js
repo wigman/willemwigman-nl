@@ -41,7 +41,7 @@ const Navbar = class extends React.Component {
         <div className="container">
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo">
-              <h1 style={{ fontFamily: 'Droid Sans' }}>
+              <h1 style={{ fontFamily: 'Open Sans' }}>
                 Willem <strong>Wigman</strong>
               </h1>
             </Link>
